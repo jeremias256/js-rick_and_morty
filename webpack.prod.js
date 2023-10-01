@@ -68,7 +68,7 @@ module.exports = {
         }),
 
         new CopyPlugin({
-            patterns:[{from: './src/styles/styles.css', to: ''}]
+            patterns:[{from: 'src/assets/', to: 'assets/'}]
         })
 
     ],

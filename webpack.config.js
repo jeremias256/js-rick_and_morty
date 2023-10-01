@@ -39,7 +39,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebpack({
-            title: '100tifi.co',
+            title: 'rick morty app dev',
             //filename: 'index.html'
             template: './src/public/index.html'
         }),
@@ -50,7 +50,7 @@ module.exports = {
         }),
 
         new CopyPlugin({
-            patterns:[{from: './src/styles/styles.css', to: ''}]
+            patterns:[{from: 'src/assets/', to: 'assets/'}]
         })
 
     ],

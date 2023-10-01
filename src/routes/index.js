@@ -8,8 +8,7 @@ import Error404      from '../pages/Error404.js';
 /* ---------------------------------- utils --------------------------------- */
 import getHash       from '../utils/getHash.js';
 import resolveRoutes from '../utils/resolveRoutes.js';
-/* --------------------------------- styles --------------------------------- */
-import '../styles/styles.css';
+
 
 const routes = {
     '/' : Home,
